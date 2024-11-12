@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Pretendard Variable';
+	font-weight: 45 920;
+	font-style: normal;
+	font-display: swap;
+	src: url('./assets/fonts/PretendardVariable.woff2') format('woff2-variations');
+}
+
+.login {
+  width: 300px;
+  height: 550px;
+  font-family: "Pretendard Variable";
+  margin: auto;
+  padding: 21px;
+
+  text-align: center;
+
+  border: 1px solid #000000;
+  /* border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.id, .password {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000000;
+}
+
+.id input, .password input {
+  border: 1px solid #000000;
+}
