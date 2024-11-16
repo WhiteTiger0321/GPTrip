@@ -1,0 +1,85 @@
+/* Step6.css */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.day-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 16px 0;
+  width: 100%;
+}
+
+.card {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+}
+
+.card-info {
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+
+.time {
+  font-size: 0.9em;
+  color: #888;
+}
+
+.lock-button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #888;
+}
+
+.locked {
+  color: #000; /* 잠금 상태일 때 색상을 다르게 */
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  padding: 16px;
+}
+
+.button {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.confirm-button {
+  background-color: #007bff;
+  color: #fff;
+}

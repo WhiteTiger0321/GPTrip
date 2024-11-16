@@ -1,0 +1,56 @@
+/* DetailPage.css */
+
+.detail-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 500px;
+}
+
+.detail-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.detail-info {
+  text-align: center;
+}
+
+.detail-info h3 {
+  margin: 10px 0;
+}
+
+.detail-info p {
+  font-size: 1em;
+  color: #333;
+}
+
+.back-button {
+  font-size: 1.2em;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: #007bff;
+}
